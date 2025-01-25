@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         renderTask(newTask);
         todoInput.value = ""; // clear input
         console.log(tasks);
-    });  
+    });
 
     function renderTask(task) {
         const li = document.createElement("li");
